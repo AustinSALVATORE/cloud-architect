@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="db" />
+        <module name="erebus" />
+        <module name="gaia" />
+        <module name="linkytoolsMS" />
+        <module name="logging" />
+        <module name="management" />
+        <module name="middleware" />
+        <module name="nyx" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="db" options="-parameters" />
+      <module name="erebus" options="-parameters" />
+      <module name="gaia" options="-parameters" />
+      <module name="logging" options="-parameters" />
+      <module name="management" options="-parameters" />
+      <module name="middleware" options="-parameters" />
+      <module name="nyx" options="-parameters" />
+    </option>
+  </component>
+</project>
