@@ -15,9 +15,9 @@
     <module>db</module>
   </modules>
   <groupId>fr.enedis</groupId>
-  <artifactId>cloud-archetect</artifactId>
+  <artifactId>cloud-architect</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>cloud-archetect</name>
+  <name>cloud-architect</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
